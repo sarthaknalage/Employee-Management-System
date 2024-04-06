@@ -27,6 +27,7 @@ export class UpdateEmployeeComponent implements OnInit {
 
   update(){
     this.api.updateEmployee(this.id,this.employee).subscribe(data=>{
+        console.log("Record Updated "+data);
        this.redirectToEmployeeList();
     },error=>console.log(error));
   }

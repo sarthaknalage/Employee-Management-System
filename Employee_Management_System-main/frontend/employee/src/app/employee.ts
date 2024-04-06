@@ -1,6 +1,6 @@
 export class Employee {
-    id : number = 0;
-    firstName:string='';
-    lastName:string='';
-    email:string='';
+    employeeID: number = 0;
+    employeeFName:string='';
+    employeeLName:string='';
+    employeeEmail:string='';
 }
